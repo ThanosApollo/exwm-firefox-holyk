@@ -1,0 +1,8 @@
+#+TITLE: EXWM-Firefox-holyK
+#+AUTHOR: Thanos Apollo
+
+/Get the default holy emacs keys for firefox!/
+* About
+Minor mode for EXWM.
+
+Changes firefox keyboard shortcuts with emacs-like key-bindings, utilizing [[https://github.com/walseb/exwm-firefox-core][exwm-firefox-core]].
