@@ -1,8 +1,23 @@
 #+TITLE: EXWM-Firefox-holyK
 #+AUTHOR: Thanos Apollo
+#+OPTIONS: num:nil
 
-/Get the default holy emacs keys for firefox!/
 * About
 Minor mode for EXWM.
 
 Changes firefox keyboard shortcuts with emacs-like key-bindings, utilizing [[https://github.com/walseb/exwm-firefox-core][exwm-firefox-core]].
+
+* Installation
+
+Clone to your emacs folder
+#+begin_src 
+git clone https://github.com/ThanosApollo/exwm-firefox-holyk.git ~/.emacs.d/lisp/exwm-firefox-holyK
+#+end_src
+
+Add this to your ~~/.emacs.d/init.el~
+#+begin_src emacs-lisp
+(add-to-list 'load-path "~/dotfiles/.emacs.d/lisp") ; Add folder to load-path
+(load 'exwm-firefox-holyK)
+#+end_src
+
+then run ~M-x RET exwm-firefox-holyK-mode~
